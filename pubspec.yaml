@@ -16,11 +16,10 @@ dependencies:
   firebase_auth: ^5.3.0
   cloud_firestore: ^5.4.0
 
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  flutter_launcher_icons: ^0.13.1
   flutter_lints: ^6.0.0
   flutter_native_splash: ^2.4.4
 
@@ -32,11 +31,19 @@ flutter_native_splash:
   fullscreen: true
 
 android_12:
-    color: "#ffffff"
-    image: assets/splash_logo.png
+  color: "#ffffff"
+  image: assets/splash_logo.png
+
+# ✅ ONLY REQUIRED ADDITION FOR APP ICON (nothing else changed)
+flutter_icons:
+  android: true
+  ios: false
+  image_path: assets/icon/app_icon.png
+  min_sdk_android: 21
 
 flutter:
   uses-material-design: true
 
   assets:
     - assets/splash_logo.png
+    - assets/icon/app_icon.png

@@ -112,7 +112,7 @@ class _SplashScreenState extends State<SplashScreen>
                       ),
                       const SizedBox(height: 10),
                       Text(
-                        "MediCare",
+                        "MediSlot",
                         style: TextStyle(
                           fontSize: 22,
                           fontWeight: FontWeight.bold,
@@ -147,7 +147,7 @@ class _SplashScreenState extends State<SplashScreen>
 
                 // Professional Loading Text
                 const Text(
-                  "Setting up your clinic...",
+                  "Book Doctor Appointments Easily",
                   style: TextStyle(
                     color: Colors.white70,
                     fontSize: 14,
